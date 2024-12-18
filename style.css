@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url(pacotep/fontes/idroid.otf);
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(161, 230, 165);
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin: 0px;
+    background-image: linear-gradient(to bottom, rgb(129, 211, 129), rgb(2, 90, 2))
+}
+
+header > h1 {
+    text-align: center;
+    color: white;
+}
+
+header > p {
+    text-align: center;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.719);
+    padding: 20px;
+}
+
+nav > a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav > a:hover {
+    background-color: rgba(71, 143, 92, 0.322);
+}
+
+main {
+    background-color: white;
+    padding: 5px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+section#principal {
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+}
+
+.center {
+    display: block;
+    margin: auto;
+}
+
+.paragrafo {
+    font-weight: normal;
+    text-align: justify;
+    text-indent: 20px;
+    margin: 15px;
+    line-height: 1em;
+}
+
+.fonte {
+    font-family: idroid;
+    color: rgb(2, 75, 2);
+}
+
+.fundo {
+    background-image: linear-gradient(to right, rgba(76, 148, 76, 0.61), white);
+}
+
+.video {
+    background-color: darkgreen;
+    padding: 20px;
+    margin: 0px -35px 30px -35px;
+    padding-bottom: 59%;
+    position: relative;
+}
+
+aside > iframe {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
+
+}
+
+.artigo {
+    background-color: rgba(115, 223, 189, 0.466);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.p {
+    background-color: rgba(48, 105, 48, 0.548);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+    line-height: 1em;
+}
+
+.pa {
+    font-weight: normal;
+    text-indent: 20px;
+    margin: 15px;
+    line-height: 1em;
+}
+
+ol {
+    list-style-type: '\2714';
+    list-style-position: inside;
+    columns: 2;
+}
+
+footer {
+    background-color: darkgreen;
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    padding: 1px;
+}
